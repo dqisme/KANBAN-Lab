@@ -1,0 +1,19 @@
+{
+  "name": "KANBAN-Lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dqisme/KANBAN-Lab.git"
+  },
+  "author": "dq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dqisme/KANBAN-Lab/issues"
+  },
+  "homepage": "https://github.com/dqisme/KANBAN-Lab"
+}
