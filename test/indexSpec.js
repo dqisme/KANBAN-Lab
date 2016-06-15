@@ -1,3 +1,5 @@
-/**
- * Created by dq on 2016/6/16 0016.
- */
+describe("Index", function() {
+    it("contains spec with an expectation", function() {
+        expect(true).toBe(true);
+    });
+});
