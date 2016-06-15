@@ -1,3 +1,6 @@
-/**
- * Created by dq on 2016/6/15 0015.
- */
+module.exports = {
+    output: {
+        path: __dirname + '/dist',
+        filename: 'index.js',
+    }
+};
