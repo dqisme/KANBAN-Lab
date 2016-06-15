@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dqisme/KANBAN-Lab/issues"
   },
-  "homepage": "https://github.com/dqisme/KANBAN-Lab"
+  "homepage": "https://github.com/dqisme/KANBAN-Lab",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
 }
