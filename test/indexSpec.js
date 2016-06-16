@@ -1,5 +1,5 @@
-describe("Index", function() {
-    it("contains spec with an expectation", function() {
-        expect(true).toBe(true);
-    });
+describe("Index", function () {
+  it("contains spec with an expectation", function () {
+    expect(true).toBe(true);
+  });
 });
