@@ -1,7 +1,15 @@
 module.exports = {
-    entry: './src',
+    entry: './src/index.ts',
     output: {
         path: __dirname + '/dist',
-        filename: 'index.js',
+        filename: 'index.js'
+    },
+    module: {
+        loaders: [
+            {
+                test: /\.ts$/,
+                loaders: ['ts']
+            }
+        ]
     }
 };
