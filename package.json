@@ -1,8 +1,7 @@
 {
-  "name": "KANBAN-Lab",
+  "name": "Learn-Angular1.x",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "webpack",
     "pretest": "npm run lint",
@@ -12,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dqisme/KANBAN-Lab.git"
+    "url": "https://github.com/dqisme/Learn-Angular1.x.git"
   },
   "author": "dq",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dqisme/KANBAN-Lab/issues"
+    "url": "https://github.com/dqisme/Learn-Angular1.x/issues"
   },
-  "homepage": "https://github.com/dqisme/KANBAN-Lab",
+  "homepage": "https://github.com/dqisme/Learn-Angular1.x",
   "devDependencies": {
     "codelyzer": "0.0.23",
     "html-webpack-plugin": "^2.21.0",
