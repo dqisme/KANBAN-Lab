@@ -10,7 +10,7 @@
     "test": "karma start",
     "lint": "tslint src/**/*.ts",
     "prestart": "npm run build",
-    "start": "webpack-dev-server --inline --hot -d --port 3000"
+    "start": "webpack-dev-server --watch-poll --inline --hot -d --port 3000"
   },
   "repository": {
     "type": "git",
