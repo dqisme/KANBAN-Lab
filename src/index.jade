@@ -1,1 +1,7 @@
-body
+doctype html
+html
+    body
+        div(ng-app="")
+            p Name:
+                input(type="text" ng-model="name")
+            p(ng-bind="name")
