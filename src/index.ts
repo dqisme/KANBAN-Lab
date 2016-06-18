@@ -1,5 +1,1 @@
-function greet(name: string) {
-  return "Hello " + name;
-}
-
-export = greet;
+/// <reference path="../typings/index.d.ts" />
