@@ -1,7 +1,7 @@
 {
   "name": "Learn-Angular1.x",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learn-X series for Angular 1.x",
   "scripts": {
     "build": "webpack",
     "pretest": "npm run lint",
