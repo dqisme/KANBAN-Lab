@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Learn-X series for Angular 1.x",
   "scripts": {
+    "postinstall": "typings install",
     "prebuild": "shx rm -rf dist",
     "build": "webpack",
     "pretest": "npm run lint",
