@@ -1,7 +1,9 @@
 doctype html
 html
     body
-        div(ng-app="")
-            p Name:
-                input(type="text" ng-model="name")
-            p(ng-bind="name")
+        div(ng-app="myApp" ng-controller="myCtrl")
+            p First Name:
+                input(type="text" ng-model="firstName")
+            p Last Name:
+                input(type="text" ng-model="lastName")
+            p {{firstName+" "+lastName}}
