@@ -1,3 +1,9 @@
-/**
- * Created by dq on 6/21/16.
- */
+const angular = require("angular");
+
+namespace learnAngular {
+  const app = angular.module("myApp", []);
+  app.controller("myCtrl", function ($scope) {
+    $scope.firstName = "John";
+    $scope.lastName = "Dong";
+  });
+}
